@@ -1,112 +1,127 @@
 fileFormatVersion: 2
-guid: 57359a21c09c05849a06e06469da8ef1
+guid: bff3603bbfa4c524ab383cdb8155dd35
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2492210224692145768
-    second: TopDownHouse_FurnitureState2_0
+      213: 1411977725836914446
+    second: Unarmed_Idle3_head_0
   - first:
-      213: 807981452728694492
-    second: TopDownHouse_FurnitureState2_1
+      213: 4271160171118848410
+    second: Unarmed_Idle3_head_1
   - first:
-      213: 697597236043287590
-    second: TopDownHouse_FurnitureState2_2
+      213: 2495309640991677697
+    second: Unarmed_Idle3_head_2
   - first:
-      213: -7934646124544217497
-    second: TopDownHouse_FurnitureState2_3
+      213: -6624163666753996284
+    second: Unarmed_Idle3_head_3
   - first:
-      213: 5082533475267559111
-    second: TopDownHouse_FurnitureState2_4
+      213: -3741026277620311613
+    second: Unarmed_Idle3_head_4
   - first:
-      213: 394087919408422019
-    second: TopDownHouse_FurnitureState2_5
+      213: 2037142557776312027
+    second: Unarmed_Idle3_head_5
   - first:
-      213: -3125665760964055732
-    second: TopDownHouse_FurnitureState2_6
+      213: 5989869332313401695
+    second: Unarmed_Idle3_head_6
   - first:
-      213: 3300118265794722929
-    second: TopDownHouse_FurnitureState2_7
+      213: 8425981449172187610
+    second: Unarmed_Idle3_head_7
   - first:
-      213: 7946180422358659586
-    second: TopDownHouse_FurnitureState2_8
+      213: 4701177288770995072
+    second: Unarmed_Idle3_head_8
   - first:
-      213: 4699220720057953175
-    second: TopDownHouse_FurnitureState2_9
+      213: 8331615203023811558
+    second: Unarmed_Idle3_head_9
   - first:
-      213: 3411658623193018523
-    second: TopDownHouse_FurnitureState2_10
+      213: 3516989062862896919
+    second: Unarmed_Idle3_head_10
   - first:
-      213: -8845540715343557685
-    second: TopDownHouse_FurnitureState2_11
+      213: -1798233224200264640
+    second: Unarmed_Idle3_head_11
   - first:
-      213: 2487396258413298203
-    second: TopDownHouse_FurnitureState2_12
+      213: 2765591321022178506
+    second: Unarmed_Idle3_head_12
   - first:
-      213: -1910255626948614874
-    second: TopDownHouse_FurnitureState2_13
+      213: 446057209878844961
+    second: Unarmed_Idle3_head_13
   - first:
-      213: 2381591660152911610
-    second: TopDownHouse_FurnitureState2_14
+      213: -6219159256283589004
+    second: Unarmed_Idle3_head_14
   - first:
-      213: -3549839095568008039
-    second: TopDownHouse_FurnitureState2_15
+      213: -177152445849867916
+    second: Unarmed_Idle3_head_15
   - first:
-      213: 6927396456807567928
-    second: TopDownHouse_FurnitureState2_16
+      213: -5503429246539241816
+    second: Unarmed_Idle3_head_16
   - first:
-      213: -181951039052862311
-    second: TopDownHouse_FurnitureState2_17
+      213: -2254793640874906311
+    second: Unarmed_Idle3_head_17
   - first:
-      213: 1895682495467128623
-    second: TopDownHouse_FurnitureState2_18
+      213: -8506261480890110653
+    second: Unarmed_Idle3_head_18
   - first:
-      213: 9077579675889848370
-    second: TopDownHouse_FurnitureState2_19
+      213: 6430568500350998193
+    second: Unarmed_Idle3_head_19
   - first:
-      213: 7678394247770279566
-    second: TopDownHouse_FurnitureState2_20
+      213: 7598496523750540296
+    second: Unarmed_Idle3_head_20
   - first:
-      213: 3165919991677821792
-    second: TopDownHouse_FurnitureState2_21
+      213: 4013968170675159600
+    second: Unarmed_Idle3_head_21
   - first:
-      213: -8378972298508074445
-    second: TopDownHouse_FurnitureState2_22
+      213: -6854425292521817182
+    second: Unarmed_Idle3_head_22
   - first:
-      213: -6306131752417886778
-    second: TopDownHouse_FurnitureState2_23
+      213: -4968478512517848669
+    second: Unarmed_Idle3_head_23
   - first:
-      213: -8607606736995592552
-    second: TopDownHouse_FurnitureState2_24
+      213: -9096079834884175564
+    second: Unarmed_Idle3_head_24
   - first:
-      213: -3668151202994259593
-    second: TopDownHouse_FurnitureState2_25
+      213: -2464289344360210985
+    second: Unarmed_Idle3_head_25
   - first:
-      213: 4431161517483847663
-    second: TopDownHouse_FurnitureState2_26
+      213: 377841606671797749
+    second: Unarmed_Idle3_head_26
   - first:
-      213: 264159191611288764
-    second: TopDownHouse_FurnitureState2_27
+      213: 241885224642042085
+    second: Unarmed_Idle3_head_27
   - first:
-      213: 4843306795386893179
-    second: TopDownHouse_FurnitureState2_28
+      213: 2242376803750564351
+    second: Unarmed_Idle3_head_28
   - first:
-      213: -7914053905990980682
-    second: TopDownHouse_FurnitureState2_29
+      213: 8036945067159451799
+    second: Unarmed_Idle3_head_29
   - first:
-      213: 5281056883739077842
-    second: TopDownHouse_FurnitureState2_30
+      213: 6137008000471714731
+    second: Unarmed_Idle3_head_30
   - first:
-      213: 221446603676674786
-    second: TopDownHouse_FurnitureState2_31
+      213: -6745027490709735649
+    second: Unarmed_Idle3_head_31
   - first:
-      213: -4217774148151571837
-    second: TopDownHouse_FurnitureState2_32
+      213: -8605111505305941089
+    second: Unarmed_Idle3_head_32
   - first:
-      213: -3401660290410426235
-    second: TopDownHouse_FurnitureState2_33
+      213: -4525742099580518332
+    second: Unarmed_Idle3_head_33
   - first:
-      213: -8643914529133457745
-    second: TopDownHouse_FurnitureState2_34
+      213: 5926321053757502690
+    second: Unarmed_Idle3_head_34
+  - first:
+      213: 7846583720206407965
+    second: Unarmed_Idle3_head_35
+  - first:
+      213: 4350214543268796490
+    second: Unarmed_Idle3_head_36
+  - first:
+      213: 3014641651927332555
+    second: Unarmed_Idle3_head_37
+  - first:
+      213: 488346928577166877
+    second: Unarmed_Idle3_head_38
+  - first:
+      213: -4243143911284124573
+    second: Unarmed_Idle3_head_39
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -139,7 +154,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -153,7 +168,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 16
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -177,7 +192,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -198,17 +213,30 @@ TextureImporter:
     ignorePlatformSupport: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: TopDownHouse_FurnitureState2_0
+      name: Unarmed_Idle3_head_0
       rect:
         serializedVersion: 2
-        x: 5
-        y: 259
-        width: 22
-        height: 25
+        x: 24
+        y: 220
+        width: 15
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -217,20 +245,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 86e2f5cbefb169220800000000000000
-      internalID: 2492210224692145768
+      spriteID: e0fe54bb24a589310800000000000000
+      internalID: 1411977725836914446
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_FurnitureState2_1
+      name: Unarmed_Idle3_head_1
       rect:
         serializedVersion: 2
-        x: 31
-        y: 257
-        width: 17
-        height: 29
+        x: 88
+        y: 220
+        width: 15
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -239,20 +267,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cd67ff2b9d6863b00800000000000000
-      internalID: 807981452728694492
+      spriteID: a99e55acb85364b30800000000000000
+      internalID: 4271160171118848410
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_FurnitureState2_2
+      name: Unarmed_Idle3_head_2
       rect:
         serializedVersion: 2
-        x: 47
-        y: 257
-        width: 34
-        height: 27
+        x: 152
+        y: 220
+        width: 15
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -261,20 +289,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 62c87aa7dfc5ea900800000000000000
-      internalID: 697597236043287590
+      spriteID: 10d9ae3d5ee11a220800000000000000
+      internalID: 2495309640991677697
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_FurnitureState2_3
+      name: Unarmed_Idle3_head_3
       rect:
         serializedVersion: 2
-        x: 80
-        y: 256
-        width: 16
-        height: 29
+        x: 216
+        y: 220
+        width: 15
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -283,20 +311,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 76eac18a36972e190800000000000000
-      internalID: -7934646124544217497
+      spriteID: 40a341dcd3e3214a0800000000000000
+      internalID: -6624163666753996284
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_FurnitureState2_4
+      name: Unarmed_Idle3_head_4
       rect:
         serializedVersion: 2
-        x: 95
-        y: 255
-        width: 17
-        height: 30
+        x: 280
+        y: 220
+        width: 15
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -305,20 +333,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 7ceba507449c88640800000000000000
-      internalID: 5082533475267559111
+      spriteID: 3c91a0bdb64351cc0800000000000000
+      internalID: -3741026277620311613
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_FurnitureState2_5
+      name: Unarmed_Idle3_head_5
       rect:
         serializedVersion: 2
-        x: 112
-        y: 256
-        width: 16
-        height: 23
+        x: 345
+        y: 220
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -327,20 +355,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 38c9c9eefd4187500800000000000000
-      internalID: 394087919408422019
+      spriteID: bd67611fc52654c10800000000000000
+      internalID: 2037142557776312027
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_FurnitureState2_6
+      name: Unarmed_Idle3_head_6
       rect:
         serializedVersion: 2
-        x: 127
-        y: 255
-        width: 33
-        height: 30
+        x: 409
+        y: 220
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -349,20 +377,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: c4de2270d876f94d0800000000000000
-      internalID: -3125665760964055732
+      spriteID: f59eb8b0c6a402350800000000000000
+      internalID: 5989869332313401695
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_FurnitureState2_7
+      name: Unarmed_Idle3_head_7
       rect:
         serializedVersion: 2
-        x: 159
-        y: 256
-        width: 34
-        height: 31
+        x: 473
+        y: 220
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -371,20 +399,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 17cf875f3106ccd20800000000000000
-      internalID: 3300118265794722929
+      spriteID: ad970f93c791fe470800000000000000
+      internalID: 8425981449172187610
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_FurnitureState2_8
+      name: Unarmed_Idle3_head_8
       rect:
         serializedVersion: 2
-        x: 159
-        y: 175
-        width: 49
-        height: 98
+        x: 537
+        y: 220
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -393,20 +421,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 202f9d35ef0864e60800000000000000
-      internalID: 7946180422358659586
+      spriteID: 083445316dfed3140800000000000000
+      internalID: 4701177288770995072
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_FurnitureState2_9
+      name: Unarmed_Idle3_head_9
       rect:
         serializedVersion: 2
-        x: 0
-        y: 225
-        width: 49
-        height: 32
+        x: 601
+        y: 220
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -415,20 +443,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 79ba53ce85cf63140800000000000000
-      internalID: 4699220720057953175
+      spriteID: 6e37a7562e7df9370800000000000000
+      internalID: 8331615203023811558
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_FurnitureState2_10
+      name: Unarmed_Idle3_head_10
       rect:
         serializedVersion: 2
-        x: 0
-        y: 177
-        width: 32
-        height: 48
+        x: 665
+        y: 220
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -437,20 +465,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b90715a2175a85f20800000000000000
-      internalID: 3411658623193018523
+      spriteID: 71f70ea3beadec030800000000000000
+      internalID: 3516989062862896919
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_FurnitureState2_11
+      name: Unarmed_Idle3_head_11
       rect:
         serializedVersion: 2
-        x: 32
-        y: 176
-        width: 48
-        height: 49
+        x: 729
+        y: 220
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -459,20 +487,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: bcb41b7c5935e3580800000000000000
-      internalID: -8845540715343557685
+      spriteID: 044ec38f8646b07e0800000000000000
+      internalID: -1798233224200264640
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_FurnitureState2_12
+      name: Unarmed_Idle3_head_12
       rect:
         serializedVersion: 2
-        x: 48
-        y: 224
-        width: 32
-        height: 30
+        x: 25
+        y: 156
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -481,20 +509,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b124c5ed7b1058220800000000000000
-      internalID: 2487396258413298203
+      spriteID: ac42e6b57aa516620800000000000000
+      internalID: 2765591321022178506
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_FurnitureState2_13
+      name: Unarmed_Idle3_head_13
       rect:
         serializedVersion: 2
-        x: 69
-        y: 129
-        width: 24
-        height: 96
+        x: 89
+        y: 156
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -503,20 +531,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6256985d0a86d75e0800000000000000
-      internalID: -1910255626948614874
+      spriteID: 12694584ba6b03600800000000000000
+      internalID: 446057209878844961
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_FurnitureState2_14
+      name: Unarmed_Idle3_head_14
       rect:
         serializedVersion: 2
-        x: 83
-        y: 224
-        width: 26
-        height: 21
+        x: 153
+        y: 156
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -525,20 +553,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: af672772ffc1d0120800000000000000
-      internalID: 2381591660152911610
+      spriteID: 47652af5b9b11b9a0800000000000000
+      internalID: -6219159256283589004
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_FurnitureState2_15
+      name: Unarmed_Idle3_head_15
       rect:
         serializedVersion: 2
-        x: 112
-        y: 223
-        width: 48
-        height: 33
+        x: 217
+        y: 156
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -547,20 +575,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 99cffd286207cbec0800000000000000
-      internalID: -3549839095568008039
+      spriteID: 479e6020ac0aa8df0800000000000000
+      internalID: -177152445849867916
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_FurnitureState2_16
+      name: Unarmed_Idle3_head_16
       rect:
         serializedVersion: 2
-        x: 143
-        y: 175
-        width: 18
-        height: 50
+        x: 281
+        y: 156
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -569,20 +597,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8329052ef5e032060800000000000000
-      internalID: 6927396456807567928
+      spriteID: 8a668893244ef93b0800000000000000
+      internalID: -5503429246539241816
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_FurnitureState2_17
+      name: Unarmed_Idle3_head_17
       rect:
         serializedVersion: 2
-        x: 94
-        y: 129
-        width: 21
-        height: 48
+        x: 345
+        y: 156
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -591,20 +619,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 99cadb67e74997df0800000000000000
-      internalID: -181951039052862311
+      spriteID: 93d67d9412d55b0e0800000000000000
+      internalID: -2254793640874906311
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_FurnitureState2_18
+      name: Unarmed_Idle3_head_18
       rect:
         serializedVersion: 2
-        x: 96
-        y: 176
-        width: 48
-        height: 47
+        x: 409
+        y: 156
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -613,20 +641,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f278e359f21de4a10800000000000000
-      internalID: 1895682495467128623
+      spriteID: 34de4f05040b3f980800000000000000
+      internalID: -8506261480890110653
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_FurnitureState2_19
+      name: Unarmed_Idle3_head_19
       rect:
         serializedVersion: 2
-        x: 147
-        y: 134
-        width: 28
-        height: 43
+        x: 473
+        y: 156
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -635,20 +663,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 23058b1ce9a0afd70800000000000000
-      internalID: 9077579675889848370
+      spriteID: 1b6dc3ffaf7fd3950800000000000000
+      internalID: 6430568500350998193
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_FurnitureState2_20
+      name: Unarmed_Idle3_head_20
       rect:
         serializedVersion: 2
-        x: 3
-        y: 135
-        width: 27
-        height: 37
+        x: 537
+        y: 156
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -657,20 +685,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: e8e00cfe2e22f8a60800000000000000
-      internalID: 7678394247770279566
+      spriteID: 804013d6458437960800000000000000
+      internalID: 7598496523750540296
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_FurnitureState2_21
+      name: Unarmed_Idle3_head_21
       rect:
         serializedVersion: 2
-        x: 31
-        y: 127
-        width: 34
-        height: 48
+        x: 601
+        y: 156
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -679,20 +707,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 063a34b657b9feb20800000000000000
-      internalID: 3165919991677821792
+      spriteID: 03241d8c8ca74b730800000000000000
+      internalID: 4013968170675159600
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_FurnitureState2_22
+      name: Unarmed_Idle3_head_22
       rect:
         serializedVersion: 2
-        x: 115
-        y: 129
-        width: 26
-        height: 46
+        x: 665
+        y: 156
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -701,20 +729,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 33286949619e7bb80800000000000000
-      internalID: -8378972298508074445
+      spriteID: 2abb8c3438030e0a0800000000000000
+      internalID: -6854425292521817182
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_FurnitureState2_23
+      name: Unarmed_Idle3_head_23
       rect:
         serializedVersion: 2
-        x: 175
-        y: 134
-        width: 25
-        height: 38
+        x: 729
+        y: 156
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -723,20 +751,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6cdf15e159e1c78a0800000000000000
-      internalID: -6306131752417886778
+      spriteID: 3a16633fd1b6c0bb0800000000000000
+      internalID: -4968478512517848669
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_FurnitureState2_24
+      name: Unarmed_Idle3_head_24
       rect:
         serializedVersion: 2
-        x: 2
-        y: 96
-        width: 12
-        height: 25
+        x: 25
+        y: 92
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -745,20 +773,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 8965e1b1743ab8880800000000000000
-      internalID: -8607606736995592552
+      spriteID: 4398221559b34c180800000000000000
+      internalID: -9096079834884175564
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_FurnitureState2_25
+      name: Unarmed_Idle3_head_25
       rect:
         serializedVersion: 2
-        x: 23
-        y: 31
-        width: 185
-        height: 97
+        x: 89
+        y: 92
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -767,20 +795,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 779fa136aeb181dc0800000000000000
-      internalID: -3668151202994259593
+      spriteID: 7dd11adc5e51dcdd0800000000000000
+      internalID: -2464289344360210985
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_FurnitureState2_26
+      name: Unarmed_Idle3_head_26
       rect:
         serializedVersion: 2
-        x: 143
-        y: 95
-        width: 65
-        height: 34
+        x: 153
+        y: 92
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -789,20 +817,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fef61004ce5ae7d30800000000000000
-      internalID: 4431161517483847663
+      spriteID: 5fd090b70fc5e3500800000000000000
+      internalID: 377841606671797749
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_FurnitureState2_27
+      name: Unarmed_Idle3_head_27
       rect:
         serializedVersion: 2
-        x: 0
-        y: 35
-        width: 23
-        height: 57
+        x: 217
+        y: 92
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -811,20 +839,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: cbc252c926b7aa300800000000000000
-      internalID: 264159191611288764
+      spriteID: 5e8543b84595b5300800000000000000
+      internalID: 241885224642042085
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_FurnitureState2_28
+      name: Unarmed_Idle3_head_28
       rect:
         serializedVersion: 2
-        x: 67
-        y: 31
-        width: 26
-        height: 17
+        x: 281
+        y: 92
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -833,20 +861,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b7375459ed1e63340800000000000000
-      internalID: 4843306795386893179
+      spriteID: ff1d02882d58e1f10800000000000000
+      internalID: 2242376803750564351
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_FurnitureState2_29
+      name: Unarmed_Idle3_head_29
       rect:
         serializedVersion: 2
-        x: 127
-        y: 0
-        width: 50
-        height: 46
+        x: 345
+        y: 92
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -855,20 +883,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6bb6d1827e1ab2290800000000000000
-      internalID: -7914053905990980682
+      spriteID: 798fd5ff4f6f88f60800000000000000
+      internalID: 8036945067159451799
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_FurnitureState2_30
+      name: Unarmed_Idle3_head_30
       rect:
         serializedVersion: 2
-        x: 0
-        y: 3
-        width: 19
-        height: 28
+        x: 409
+        y: 92
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -877,20 +905,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2dc26e961451a4940800000000000000
-      internalID: 5281056883739077842
+      spriteID: babc8dbd2480b2550800000000000000
+      internalID: 6137008000471714731
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_FurnitureState2_31
+      name: Unarmed_Idle3_head_31
       rect:
         serializedVersion: 2
-        x: 22
-        y: 0
-        width: 21
-        height: 31
+        x: 473
+        y: 92
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -899,20 +927,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 2ea6dd4438cb21300800000000000000
-      internalID: 221446603676674786
+      spriteID: f177000eb39d462a0800000000000000
+      internalID: -6745027490709735649
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_FurnitureState2_32
+      name: Unarmed_Idle3_head_32
       rect:
         serializedVersion: 2
-        x: 50
-        y: 0
-        width: 27
-        height: 31
+        x: 537
+        y: 92
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -921,20 +949,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 38a899c42c47775c0800000000000000
-      internalID: -4217774148151571837
+      spriteID: f9bcc918da0849880800000000000000
+      internalID: -8605111505305941089
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_FurnitureState2_33
+      name: Unarmed_Idle3_head_33
       rect:
         serializedVersion: 2
-        x: 81
-        y: 0
-        width: 44
-        height: 25
+        x: 601
+        y: 92
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -943,20 +971,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 580d8871dffdac0d0800000000000000
-      internalID: -3401660290410426235
+      spriteID: 4400971f9855131c0800000000000000
+      internalID: -4525742099580518332
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: TopDownHouse_FurnitureState2_34
+      name: Unarmed_Idle3_head_34
       rect:
         serializedVersion: 2
-        x: 176
-        y: 0
-        width: 32
-        height: 27
+        x: 665
+        y: 92
+        width: 14
+        height: 15
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -965,8 +993,118 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: fae892e7885aa0880800000000000000
-      internalID: -8643914529133457745
+      spriteID: 2e4722279958e3250800000000000000
+      internalID: 5926321053757502690
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unarmed_Idle3_head_35
+      rect:
+        serializedVersion: 2
+        x: 729
+        y: 92
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d19144f025aa4ec60800000000000000
+      internalID: 7846583720206407965
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unarmed_Idle3_head_36
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 28
+        width: 15
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a48564424111f5c30800000000000000
+      internalID: 4350214543268796490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unarmed_Idle3_head_37
+      rect:
+        serializedVersion: 2
+        x: 90
+        y: 28
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc6b9343c9826d920800000000000000
+      internalID: 3014641651927332555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unarmed_Idle3_head_38
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 28
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1ebef4b1f4f6c600800000000000000
+      internalID: 488346928577166877
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Unarmed_Idle3_head_39
+      rect:
+        serializedVersion: 2
+        x: 218
+        y: 28
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3645c0508135d15c0800000000000000
+      internalID: -4243143911284124573
       vertices: []
       indices: 
       edges: []
@@ -985,41 +1123,46 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      TopDownHouse_FurnitureState2_0: 2492210224692145768
-      TopDownHouse_FurnitureState2_1: 807981452728694492
-      TopDownHouse_FurnitureState2_10: 3411658623193018523
-      TopDownHouse_FurnitureState2_11: -8845540715343557685
-      TopDownHouse_FurnitureState2_12: 2487396258413298203
-      TopDownHouse_FurnitureState2_13: -1910255626948614874
-      TopDownHouse_FurnitureState2_14: 2381591660152911610
-      TopDownHouse_FurnitureState2_15: -3549839095568008039
-      TopDownHouse_FurnitureState2_16: 6927396456807567928
-      TopDownHouse_FurnitureState2_17: -181951039052862311
-      TopDownHouse_FurnitureState2_18: 1895682495467128623
-      TopDownHouse_FurnitureState2_19: 9077579675889848370
-      TopDownHouse_FurnitureState2_2: 697597236043287590
-      TopDownHouse_FurnitureState2_20: 7678394247770279566
-      TopDownHouse_FurnitureState2_21: 3165919991677821792
-      TopDownHouse_FurnitureState2_22: -8378972298508074445
-      TopDownHouse_FurnitureState2_23: -6306131752417886778
-      TopDownHouse_FurnitureState2_24: -8607606736995592552
-      TopDownHouse_FurnitureState2_25: -3668151202994259593
-      TopDownHouse_FurnitureState2_26: 4431161517483847663
-      TopDownHouse_FurnitureState2_27: 264159191611288764
-      TopDownHouse_FurnitureState2_28: 4843306795386893179
-      TopDownHouse_FurnitureState2_29: -7914053905990980682
-      TopDownHouse_FurnitureState2_3: -7934646124544217497
-      TopDownHouse_FurnitureState2_30: 5281056883739077842
-      TopDownHouse_FurnitureState2_31: 221446603676674786
-      TopDownHouse_FurnitureState2_32: -4217774148151571837
-      TopDownHouse_FurnitureState2_33: -3401660290410426235
-      TopDownHouse_FurnitureState2_34: -8643914529133457745
-      TopDownHouse_FurnitureState2_4: 5082533475267559111
-      TopDownHouse_FurnitureState2_5: 394087919408422019
-      TopDownHouse_FurnitureState2_6: -3125665760964055732
-      TopDownHouse_FurnitureState2_7: 3300118265794722929
-      TopDownHouse_FurnitureState2_8: 7946180422358659586
-      TopDownHouse_FurnitureState2_9: 4699220720057953175
+      Unarmed_Idle3_head_0: 1411977725836914446
+      Unarmed_Idle3_head_1: 4271160171118848410
+      Unarmed_Idle3_head_10: 3516989062862896919
+      Unarmed_Idle3_head_11: -1798233224200264640
+      Unarmed_Idle3_head_12: 2765591321022178506
+      Unarmed_Idle3_head_13: 446057209878844961
+      Unarmed_Idle3_head_14: -6219159256283589004
+      Unarmed_Idle3_head_15: -177152445849867916
+      Unarmed_Idle3_head_16: -5503429246539241816
+      Unarmed_Idle3_head_17: -2254793640874906311
+      Unarmed_Idle3_head_18: -8506261480890110653
+      Unarmed_Idle3_head_19: 6430568500350998193
+      Unarmed_Idle3_head_2: 2495309640991677697
+      Unarmed_Idle3_head_20: 7598496523750540296
+      Unarmed_Idle3_head_21: 4013968170675159600
+      Unarmed_Idle3_head_22: -6854425292521817182
+      Unarmed_Idle3_head_23: -4968478512517848669
+      Unarmed_Idle3_head_24: -9096079834884175564
+      Unarmed_Idle3_head_25: -2464289344360210985
+      Unarmed_Idle3_head_26: 377841606671797749
+      Unarmed_Idle3_head_27: 241885224642042085
+      Unarmed_Idle3_head_28: 2242376803750564351
+      Unarmed_Idle3_head_29: 8036945067159451799
+      Unarmed_Idle3_head_3: -6624163666753996284
+      Unarmed_Idle3_head_30: 6137008000471714731
+      Unarmed_Idle3_head_31: -6745027490709735649
+      Unarmed_Idle3_head_32: -8605111505305941089
+      Unarmed_Idle3_head_33: -4525742099580518332
+      Unarmed_Idle3_head_34: 5926321053757502690
+      Unarmed_Idle3_head_35: 7846583720206407965
+      Unarmed_Idle3_head_36: 4350214543268796490
+      Unarmed_Idle3_head_37: 3014641651927332555
+      Unarmed_Idle3_head_38: 488346928577166877
+      Unarmed_Idle3_head_39: -4243143911284124573
+      Unarmed_Idle3_head_4: -3741026277620311613
+      Unarmed_Idle3_head_5: 2037142557776312027
+      Unarmed_Idle3_head_6: 5989869332313401695
+      Unarmed_Idle3_head_7: 8425981449172187610
+      Unarmed_Idle3_head_8: 4701177288770995072
+      Unarmed_Idle3_head_9: 8331615203023811558
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
