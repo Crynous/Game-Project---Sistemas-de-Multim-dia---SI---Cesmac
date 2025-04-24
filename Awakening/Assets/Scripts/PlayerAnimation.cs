@@ -8,6 +8,11 @@ public class PlayerMovement : MonoBehaviour
     private Animator animator;
     private Vector2 movement;
 
+    void Awake()
+    {
+        DontDestroyOnLoad(gameObject); // Garante que o Player persista entre as cenas
+    }
+
     void Start()
     {
         animator = GetComponent<Animator>();
