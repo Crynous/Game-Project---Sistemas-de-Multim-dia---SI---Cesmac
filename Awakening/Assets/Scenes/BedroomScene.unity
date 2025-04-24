@@ -119,6 +119,51 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &70986127
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 70986129}
+  - component: {fileID: 70986128}
+  m_Layer: 0
+  m_Name: PlayerManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &70986128
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 70986127}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9afb3e6b406ab0c4e8cc072cbefa5d2f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerSpawnPosition: {x: 0, y: 0}
+--- !u!4 &70986129
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 70986127}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -22.92, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &83139597 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: -2253911629886400664, guid: 67963915d53d7a64f8c34deeae4557cf, type: 3}
@@ -170,6 +215,37 @@ BoxCollider2D:
   m_AutoTiling: 0
   m_Size: {x: 0.38, y: 0.5899999}
   m_EdgeRadius: 0
+--- !u!1 &133964498
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 133964499}
+  m_Layer: 0
+  m_Name: PontoDeSpawn01
+  m_TagString: Respawn
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &133964499
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 133964498}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -26.26, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &352219347
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -908,7 +984,6 @@ GameObject:
   - component: {fileID: 1035700089}
   - component: {fileID: 1035700088}
   - component: {fileID: 1035700087}
-  - component: {fileID: 1035700094}
   m_Layer: 0
   m_Name: PortaParaCasa
   m_TagString: Untagged
@@ -1045,19 +1120,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0.375, y: 0, z: 0}
---- !u!114 &1035700094
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1035700086}
-  m_Enabled: 0
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 3816e02c478be48489b8b9a4c870c9bc, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  nomeCenaDestino: Casa (Sala e cozinha)
 --- !u!1001 &1222356992
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1733,13 +1795,17 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 6496000833062453900, guid: 24afd810956ebe248a20d248c49dad35, type: 3}
+      propertyPath: player
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 7043814634243191858, guid: 24afd810956ebe248a20d248c49dad35, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -26.22
+      value: -26.38
       objectReference: {fileID: 0}
     - target: {fileID: 7043814634243191858, guid: 24afd810956ebe248a20d248c49dad35, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.8
+      value: 1.26
       objectReference: {fileID: 0}
     - target: {fileID: 7043814634243191858, guid: 24afd810956ebe248a20d248c49dad35, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1792,3 +1858,5 @@ SceneRoots:
   - {fileID: 1771914423}
   - {fileID: 703316059}
   - {fileID: 1035700093}
+  - {fileID: 70986129}
+  - {fileID: 133964499}
