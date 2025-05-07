@@ -1,41 +1,41 @@
 using UnityEngine;
-using UnityEngine.UI; // ou TMPro se usar TextMeshPro
+using UnityEngine.UI;
 
 public class InteracaoArmario : MonoBehaviour
 {
-    public GameObject promptUI; // arrastar o TextoInteracaoArmario aqui no Inspector
-    public float tempoInteracao = 5f; // tempo necessário segurando E
-    private float tempoAtual = 0f;
+    public float tempoInteracao = 5f;
+    private float tempoSegurando = 0f;
     private bool jogadorProximo = false;
-    private bool interagindo = false;
-    private bool armarioAberto = false;
+    private bool armarioArrumado = false;
+
+    public GameObject promptUI; // Objeto de texto para interação
 
     void Update()
     {
-        if (jogadorProximo && !armarioAberto)
+        if (jogadorProximo && !armarioArrumado)
         {
             if (Input.GetKey(KeyCode.E))
             {
-                interagindo = true;
-                tempoAtual += Time.deltaTime;
+                tempoSegurando += Time.deltaTime;
 
-                if (tempoAtual >= tempoInteracao)
+                if (tempoSegurando >= tempoInteracao)
                 {
-                    // Interação completa
-                    promptUI.GetComponent<Text>().text = "O armário foi aberto!";
-                    armarioAberto = true;
+                    ArrumarArmario();
                 }
             }
             else
             {
-                if (interagindo)
-                {
-                    // Se parou de apertar antes de completar
-                    tempoAtual = 0f;
-                    interagindo = false;
-                }
+                tempoSegurando = 0f; // reset se soltar
             }
         }
+    }
+
+    void ArrumarArmario()
+    {
+        armarioArrumado = true;
+        promptUI.SetActive(false);
+        Debug.Log("Armário arrumado!");
+        // Aqui você pode adicionar efeitos, som, mudar sprite etc.
     }
 
     void OnTriggerEnter2D(Collider2D other)
@@ -43,7 +43,7 @@ public class InteracaoArmario : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             jogadorProximo = true;
-            if (!armarioAberto)
+            if (!armarioArrumado)
                 promptUI.SetActive(true);
         }
     }
@@ -53,9 +53,8 @@ public class InteracaoArmario : MonoBehaviour
         if (other.CompareTag("Player"))
         {
             jogadorProximo = false;
+            tempoSegurando = 0f;
             promptUI.SetActive(false);
-            tempoAtual = 0f; // reseta o progresso se sair
-            interagindo = false;
         }
     }
 }

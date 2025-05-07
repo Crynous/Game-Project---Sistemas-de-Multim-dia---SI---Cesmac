@@ -3,12 +3,12 @@ using UnityEngine.UI;
 
 public class InteracaoCama : MonoBehaviour
 {
-    public float tempoNecessario = 3f;
+    public float tempoInteracao = 3f;
     private float tempoSegurando = 0f;
     private bool jogadorPerto = false;
     private bool camaArrumada = false;
 
-    public GameObject promptUI; // Referência ao texto na tela (ex: "Segure E para arrumar a cama")
+    public GameObject promptUI; // Objeto de texto que aparece quando perto
 
     void Update()
     {
@@ -18,7 +18,7 @@ public class InteracaoCama : MonoBehaviour
             {
                 tempoSegurando += Time.deltaTime;
 
-                if (tempoSegurando >= tempoNecessario)
+                if (tempoSegurando >= tempoInteracao)
                 {
                     ArrumarCama();
                 }
@@ -35,7 +35,7 @@ public class InteracaoCama : MonoBehaviour
         camaArrumada = true;
         promptUI.SetActive(false);
         Debug.Log("Cama arrumada!");
-        // aqui você pode trocar sprite, ativar algo, tocar som etc.
+        // Aqui você pode adicionar efeitos visuais, sons, mudar sprites etc.
     }
 
     private void OnTriggerEnter2D(Collider2D collision)
