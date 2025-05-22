@@ -8,7 +8,14 @@ public class PlayerMovement : MonoBehaviour
 
     void Awake()
     {
-        DontDestroyOnLoad(gameObject); // Garante que o Player persista entre cenas
+        GameObject[] players = GameObject.FindGameObjectsWithTag("Player");
+        if (players.Length > 1)
+        {
+            Destroy(gameObject); // Destroi instÃ¢ncias duplicadas
+            return;
+        }
+
+        DontDestroyOnLoad(gameObject); // MantÃ©m apenas uma instÃ¢ncia
     }
 
     void Start()
@@ -16,29 +23,20 @@ public class PlayerMovement : MonoBehaviour
         animator = GetComponent<Animator>();
 
         Vector2 pos = PlayerManager.instance != null ? PlayerManager.instance.playerSpawnPosition : Vector2.zero;
-        Debug.Log("Posição salva: " + pos);
 
         if (PlayerManager.instance != null && pos != Vector2.zero)
         {
             transform.position = pos;
-            Debug.Log("Player carregado na posição salva: " + pos);
         }
         else
         {
             GameObject spawnPoint = GameObject.FindGameObjectWithTag("Respawn");
             if (spawnPoint != null)
-            {
                 transform.position = spawnPoint.transform.position;
-                Debug.Log("Player spawnado no ponto de respawn da cena: " + spawnPoint.transform.position);
-            }
-            else
-            {
-                Debug.LogWarning("Nenhum ponto de respawn encontrado na cena!");
-            }
         }
 
         if (PlayerManager.instance != null)
-            PlayerManager.instance.playerSpawnPosition = Vector2.zero; // Limpa a posição após o uso
+            PlayerManager.instance.playerSpawnPosition = Vector2.zero;
     }
 
     void Update()
