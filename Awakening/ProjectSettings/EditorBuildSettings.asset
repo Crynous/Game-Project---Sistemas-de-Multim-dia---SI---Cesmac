@@ -8,6 +8,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Scenes/SampleScene.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
+<<<<<<< Updated upstream
+=======
+  - enabled: 1
+    path: Assets/Menu.unity
+    guid: e20eba2ce98bd954fbc8d1516f609ad3
+>>>>>>> Stashed changes
   - enabled: 1
     path: Assets/Scenes/BedroomScene.unity
     guid: ab8c78edf28987145b4c17afd7e558f2
