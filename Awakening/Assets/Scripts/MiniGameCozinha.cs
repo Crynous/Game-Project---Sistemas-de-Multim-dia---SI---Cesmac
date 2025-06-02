@@ -1,82 +1,83 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 using UnityEngine.UI;
 
 public class MiniGameCozinha : MonoBehaviour
 {
-    public Slider sliderTemperatura;
-    public Button botaoMexer;
-    public Text textoFeedback;
+    public Slider temperaturaSlider;
+    public Text feedbackTexto;
 
-    private float tempoCozinhando = 0f;
-    private float tempoMaximo = 15f;
-    private float tempoSemMexer = 0f;
-    private float limiteSemMexer = 3f;
+    public float tempoJogo = 10f;
+    private float tempoAtual;
 
-    private bool cozinhando = false;
+    private float velocidadeOscilacao = 2f;
+    private bool jogoAtivo = false;
 
     void OnEnable()
     {
-        // Reinicia tudo ao abrir
-        sliderTemperatura.value = 50;
-        tempoCozinhando = 0f;
-        tempoSemMexer = 0f;
-        textoFeedback.text = "Mantenha a temperatura ideal e mexa a panela!";
-        cozinhando = true;
-
-        // Adiciona evento no botão
-        botaoMexer.onClick.AddListener(MexerPanela);
-    }
-
-    void OnDisable()
-    {
-        // Remove evento ao fechar
-        botaoMexer.onClick.RemoveListener(MexerPanela);
+        tempoAtual = tempoJogo;
+        temperaturaSlider.value = 0.5f;
+        feedbackTexto.text = "Equilibre a temperatura!";
+        jogoAtivo = true;
+        Time.timeScale = 0f;
     }
 
     void Update()
     {
-        if (!cozinhando) return;
+        if (!jogoAtivo) return;
 
-        tempoCozinhando += Time.unscaledDeltaTime;
-        tempoSemMexer += Time.unscaledDeltaTime;
+        float direcao = Random.Range(-1f, 1f);
+        temperaturaSlider.value += direcao * velocidadeOscilacao * Time.unscaledDeltaTime;
+        temperaturaSlider.value = Mathf.Clamp01(temperaturaSlider.value);
 
-        // Verifica se a temperatura está na faixa ideal (40-60)
-        if (sliderTemperatura.value < 40 || sliderTemperatura.value > 60)
-        {
-            textoFeedback.text = "Atenção! Ajuste a temperatura!";
-        }
+        if (Input.GetKey(KeyCode.A))
+            temperaturaSlider.value -= 0.5f * Time.unscaledDeltaTime;
+        if (Input.GetKey(KeyCode.D))
+            temperaturaSlider.value += 0.5f * Time.unscaledDeltaTime;
+
+        if (Input.GetKeyDown(KeyCode.Escape))
+            CancelarMinigame();
+
+        if (temperaturaSlider.value > 0.7f)
+            feedbackTexto.text = "Comida queimando!";
+        else if (temperaturaSlider.value < 0.3f)
+            feedbackTexto.text = "Temperatura baixa!";
         else
-        {
-            textoFeedback.text = "Ótimo! Temperatura perfeita!";
-        }
+            feedbackTexto.text = "Temperatura ok!";
 
-        // Se não mexer a panela por muito tempo
-        if (tempoSemMexer > limiteSemMexer)
+        tempoAtual -= Time.unscaledDeltaTime;
+        if (tempoAtual <= 0f)
         {
-            textoFeedback.text = "A comida está queimando!";
-        }
-
-        // Finaliza o mini-game
-        if (tempoCozinhando >= tempoMaximo)
-        {
-            FinalizarMiniGame();
+            jogoAtivo = false;
+            AvaliarResultado();
         }
     }
 
-    void MexerPanela()
+    void AvaliarResultado()
     {
-        tempoSemMexer = 0f;
-        textoFeedback.text = "Panela mexida!";
+        if (temperaturaSlider.value >= 0.4f && temperaturaSlider.value <= 0.6f)
+            feedbackTexto.text = "Prato pronto! Sucesso!";
+        else
+            feedbackTexto.text = "Prato falhou! Tente de novo!";
+
+        // Espera 2 segundos em tempo real antes de fechar
+        StartCoroutine(FecharMinigameDepoisDe(2f));
     }
 
-    void FinalizarMiniGame()
+    System.Collections.IEnumerator FecharMinigameDepoisDe(float segundos)
     {
-        cozinhando = false;
-        textoFeedback.text = "Prato pronto!";
+        yield return new WaitForSecondsRealtime(segundos);
+        FecharMinigame();
+    }
+
+    void CancelarMinigame()
+    {
+        jogoAtivo = false;
+        FecharMinigame();
+    }
+
+    void FecharMinigame()
+    {
         Time.timeScale = 1f;
         gameObject.SetActive(false);
-
-        // Aqui pode adicionar feedback final, som, etc.
-        Debug.Log("Mini-game de cozinha concluído!");
     }
 }
