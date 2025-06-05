@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Mae-Chloe_idle_16x16_0: -6867349176988825345
+      Mae-Chloe_idle_16x16_1: -8764480391545420812
+      Mae-Chloe_idle_16x16_2: 4978545215167088131
+      Mae-Chloe_idle_16x16_3: -8514773315522527009
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

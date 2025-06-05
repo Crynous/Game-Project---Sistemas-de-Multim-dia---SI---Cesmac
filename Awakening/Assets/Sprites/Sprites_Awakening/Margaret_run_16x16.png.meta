@@ -459,7 +459,21 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Margaret_run_16x16_0: -7409133227946051307
+      Margaret_run_16x16_1: -736468882064658502
+      Margaret_run_16x16_10: 8025433845878435158
+      Margaret_run_16x16_11: 782147461228175861
+      Margaret_run_16x16_12: 7539986703927981639
+      Margaret_run_16x16_13: -6029921278815263755
+      Margaret_run_16x16_2: -8162342607995108929
+      Margaret_run_16x16_3: 4978479786325766133
+      Margaret_run_16x16_4: 6513229762608503245
+      Margaret_run_16x16_5: 8470786592912741902
+      Margaret_run_16x16_6: -5189228455585568300
+      Margaret_run_16x16_7: 5269447889972933751
+      Margaret_run_16x16_8: -1856024116969927113
+      Margaret_run_16x16_9: -2578240991196577194
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

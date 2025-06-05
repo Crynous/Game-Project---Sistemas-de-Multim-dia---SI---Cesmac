@@ -209,7 +209,11 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Margaret_idle_16x16_0: 577562078262369897
+      Margaret_idle_16x16_1: 6368595439394321798
+      Margaret_idle_16x16_2: 2454339793138792588
+      Margaret_idle_16x16_3: 959361502949436547
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
